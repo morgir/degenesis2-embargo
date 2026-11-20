@@ -1,0 +1,53 @@
+{
+ "_id": "N8Dt5hf7eW88bXkX",
+ "_key": "!actors!N8Dt5hf7eW88bXkX",
+ "name": "Frakcja: Ludzie Nullify'a",
+ "type": "frakcja",
+ "img": "icons/svg/hanging-sign.svg",
+ "system": {
+  "cel": "Zatrzeć ślady fałszywek przed Klastrem",
+  "zasoby": 3,
+  "imie": {
+   "value": -1,
+   "echo": 0
+  },
+  "osobiste": "",
+  "cecha": "Zabijają świadków",
+  "clocks": [
+   {
+    "name": "Czystka Case'a",
+    "size": 6,
+    "value": 1
+   }
+  ],
+  "notes": ""
+ },
+ "items": [],
+ "effects": [],
+ "folder": "zLEMPUJsEUSkqcoj",
+ "sort": 310,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "prototypeToken": {
+  "name": "Frakcja: Ludzie Nullify'a",
+  "actorLink": false,
+  "disposition": 0,
+  "texture": {
+   "src": "icons/svg/hanging-sign.svg"
+  },
+  "displayName": 20,
+  "displayBars": 20,
+  "bar1": {
+   "attribute": "ego"
+  }
+ }
+}

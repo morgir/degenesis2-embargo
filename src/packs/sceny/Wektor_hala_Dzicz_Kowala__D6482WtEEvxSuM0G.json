@@ -1,0 +1,59 @@
+{
+ "_id": "D6482WtEEvxSuM0G",
+ "_key": "!scenes!D6482WtEEvxSuM0G",
+ "name": "Wektor — hala (Dzicz Kowala)",
+ "navName": "",
+ "navigation": true,
+ "navOrder": 3,
+ "active": false,
+ "width": 2240,
+ "height": 1540,
+ "padding": 0.05,
+ "backgroundColor": "#0b0a09",
+ "background": {
+  "src": "modules/degenesis2-embargo/assets/maps/wektor-hala.webp"
+ },
+ "thumb": null,
+ "grid": {
+  "type": 1,
+  "size": 70,
+  "distance": 1,
+  "units": "m",
+  "alpha": 0,
+  "color": "#000000"
+ },
+ "initial": {
+  "x": null,
+  "y": null,
+  "scale": null
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "environment": {
+  "darknessLevel": 0.45
+ },
+ "darkness": 0.45,
+ "tokens": [],
+ "lights": [],
+ "notes": [],
+ "sounds": [],
+ "tiles": [],
+ "walls": [],
+ "drawings": [],
+ "regions": [],
+ "folder": "Ec1Y1hPxr1ZNNj0x",
+ "sort": 300,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "13.351",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ }
+}

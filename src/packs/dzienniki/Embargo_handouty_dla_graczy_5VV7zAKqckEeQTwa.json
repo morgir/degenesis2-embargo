@@ -1,0 +1,123 @@
+{
+ "_id": "5VV7zAKqckEeQTwa",
+ "_key": "!journal!5VV7zAKqckEeQTwa",
+ "name": "Embargo — handouty dla graczy",
+ "pages": [
+  {
+   "_id": "XG7Aea5XWj9SW2UJ",
+   "_key": "!journal.pages!5VV7zAKqckEeQTwa.XG7Aea5XWj9SW2UJ",
+   "name": "Tablica przy drodze",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p class='d2-read'>TUMBLER — gorzelnia · jadło · nocleg. Pod tablicą ktoś dopisał kredą: <i>mięso codziennie</i>.</p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "nGBvrevSG6kH0vJ8",
+   "_key": "!journal.pages!5VV7zAKqckEeQTwa.nGBvrevSG6kH0vJ8",
+   "name": "Fałszywy Draft",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Banknot Kronikarzy, z pozoru prawdziwy. Kod kreskowy wygląda dobrze, ale skaner Tokena świeci na czerwono: <b>DRAFT NIEZAREJESTROWANY</b>.</p>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "3f4aiumWFLdzP8ce",
+   "_key": "!journal.pages!5VV7zAKqckEeQTwa.3f4aiumWFLdzP8ce",
+   "name": "Ekran w Wektorze",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Ziarniste zdjęcie: ogromny Złomiarz w Alkowie. Nad jego głową czerwony napis <b>EMBARGO</b>. Na drugim zdjęciu ten sam człowiek przed bramą tej hali: <b>OBIEKT PRÓBNY 1 — 3000 DRAFTÓW</b>.</p>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": "dF2CnTfSGUBYpHjO",
+ "sort": 300,
+ "ownership": {
+  "default": 2
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "categories": []
+}

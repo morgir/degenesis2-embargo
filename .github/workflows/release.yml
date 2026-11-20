@@ -1,0 +1,60 @@
+name: Wydanie modułu
+
+# Nowe wydanie powstaje samo, gdy na main zmieni się "version" w module.json
+# (albo ręcznie: Actions → Wydanie modułu → Run workflow).
+on:
+  push:
+    branches: [main]
+    paths: ["module.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wersja z module.json
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=$(node -p 'require("./module.json").version')
+          echo "tag=v$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" >/dev/null 2>&1; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Ustaw download w module.json
+        env:
+          REPO: ${{ github.repository }}
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const m = JSON.parse(fs.readFileSync("module.json", "utf8"));
+            m.url = `https://github.com/${process.env.REPO}`;
+            m.manifest = `https://github.com/${process.env.REPO}/releases/latest/download/module.json`;
+            m.download = `https://github.com/${process.env.REPO}/releases/download/${process.env.TAG}/degenesis2-embargo.zip`;
+            fs.writeFileSync("module.json", JSON.stringify(m, null, 2));
+          '
+      - name: Kompilacja kompendiów
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+      - name: Paczka ZIP
+        run: |
+          mkdir -p dist/degenesis2-embargo
+          cp -r module.json scripts assets packs README.md dist/degenesis2-embargo/
+          cd dist && zip -rq degenesis2-embargo.zip degenesis2-embargo
+      - name: Wydanie
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.ver.outputs.tag }}
+        run: |
+          if [ "${{ steps.ver.outputs.exists }}" != "true" ]; then
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "Embargo — $TAG" --notes-file RELEASE_NOTES.md
+          fi
+          gh release upload "$TAG" dist/degenesis2-embargo.zip module.json --clobber

@@ -1,0 +1,237 @@
+{
+ "_id": "QDZiE7oB2ePFoaRs",
+ "_key": "!actors!QDZiE7oB2ePFoaRs",
+ "name": "Wataha zdziczałych Gendo",
+ "type": "npc",
+ "img": "icons/svg/pawprint.svg",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 5
+   },
+   "zre": {
+    "value": 4
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 4
+   },
+   "ins": {
+    "value": 4
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 4
+   },
+   "bijatyka": {
+    "value": 1
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 0
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 4
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 0
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 3
+   },
+   "wola": {
+    "value": 2
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 3
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "banda",
+  "size": {
+   "value": 5,
+   "max": 5
+  },
+  "ego": {
+   "value": 3,
+   "max": 3
+  },
+  "armor": 1,
+  "progBonus": 0,
+  "kult": "Bestie",
+  "ranga": "",
+  "motyw": "Głód",
+  "lek": "Ogień",
+  "sekret": "",
+  "cena": "",
+  "postawa": -2,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Wypuszczona z klatek przez Kowala. Krąży w Dzicz i czeka na moment słabości. Ucieka przy 3 stratach albo ogniu [2.0: Banda].</p>"
+ },
+ "items": [
+  {
+   "name": "Ugryzienie",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bijatyka",
+    "handling": 0,
+    "damage": "5",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "_id": "RBX0R0M3qH7UGNFe",
+   "_key": "!actors.items!QDZiE7oB2ePFoaRs.RBX0R0M3qH7UGNFe",
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  }
+ ],
+ "effects": [],
+ "folder": "P1aMZP6gwdf5QN5g",
+ "sort": 2000,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "prototypeToken": {
+  "name": "Wataha zdziczałych Gendo",
+  "actorLink": false,
+  "disposition": -1,
+  "texture": {
+   "src": "icons/svg/pawprint.svg"
+  },
+  "displayName": 20,
+  "displayBars": 20,
+  "bar1": {
+   "attribute": "ego"
+  }
+ }
+}

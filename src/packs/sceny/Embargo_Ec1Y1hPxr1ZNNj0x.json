@@ -1,0 +1,19 @@
+{
+ "_id": "Ec1Y1hPxr1ZNNj0x",
+ "_key": "!folders!Ec1Y1hPxr1ZNNj0x",
+ "name": "Embargo",
+ "type": "Scene",
+ "folder": null,
+ "sorting": "m",
+ "sort": 0,
+ "color": "#7b1e12",
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ }
+}

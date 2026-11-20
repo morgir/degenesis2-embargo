@@ -1,0 +1,19 @@
+{
+ "_id": "zLEMPUJsEUSkqcoj",
+ "_key": "!folders!zLEMPUJsEUSkqcoj",
+ "name": "Embargo — śledztwo i świat",
+ "type": "Actor",
+ "folder": "BKBT4Et8rhtHqVU5",
+ "sorting": "a",
+ "sort": 200,
+ "color": "#4a1a12",
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ }
+}

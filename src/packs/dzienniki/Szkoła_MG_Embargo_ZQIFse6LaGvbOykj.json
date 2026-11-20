@@ -1,0 +1,259 @@
+{
+ "_id": "ZQIFse6LaGvbOykj",
+ "_key": "!journal!ZQIFse6LaGvbOykj",
+ "name": "Szkoła MG: Embargo",
+ "pages": [
+  {
+   "_id": "mcgaHKbMffNh23yt",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.mcgaHKbMffNh23yt",
+   "name": "1. Przygotowanie (30 minut)",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ol><li><b>Przeczytaj rozdział 1 „Prawda”.</b> Musisz wiedzieć, kto co zrobił, zanim gracze zaczną zgadywać. Reszta przygody to konsekwencje tych pięciu faktów.</li>\n<li><b>Zaimportuj moduł</b> (przycisk w zakładce Dzienniki albo prawym na kompendium → Import All Content). Dostaniesz foldery „Embargo” w Scenach, Aktorach i Dziennikach.</li>\n<li><b>Otwórz aktora „Śledztwo: Fałszywe Drafty”.</b> Tropy kluczowe są tam wypisane. Zegary ustaw na start (Czystka 1, Kronikarze 2).</li>\n<li><b>Ustaw sceny</b>: Tumbler — osada aktywna. Mapy Wektora są przyciemnione. Jeśli chcesz pełnej ciemności, w konfiguracji sceny włącz <i>Token Vision</i> i <i>Fog Exploration</i>, a żetonom postaci daj widzenie i latarkę jako światło (5 m) — ciemność to połowa klimatu.</li>\n<li><b>Rozstaw żetony</b>: Magnus i Merl na wieży, Shutterzy przy stole w izbie, Mama Dacrois za ladą.</li>\n<li><b>Ustal z graczami ton</b>: przygoda ma przemoc wobec bezbronnych, dziwną rodzinę i trupy. Zapytaj, czego nie chcą przy stole.</li></ol>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "JTjgeEdjkRhbugvf",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.JTjgeEdjkRhbugvf",
+   "name": "2. Pierwsze 15 minut",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Zacznij od drogi. Każdy gracz w jednym zdaniu mówi, skąd wraca jego postać i czego jej brakuje (jedzenia, snu, pieniędzy). To od razu daje powód, żeby zajrzeć do Tumblera.</p>\n<p>Przeczytaj tekst z tablicą i wieżą. Wycelowany karabin to test charakteru drużyny: ktoś pomacha, ktoś sięgnie po broń, ktoś się schowa. Wszystko jest dobre — Magnus i tak zejdzie.</p>\n<p>W izbie zwolnij. Opisz zapach, kurz, dwóch milczących ludzi z czarnymi twarzami. Pozwól graczom rozmawiać z Mamą Dacrois, zadawać pytania, oglądać Shutterów. Gdy rozmowa zacznie przygasać — wpada Jatzek.</p>\n<div class=\"d2-gmnote\"><p>Złota zasada: przemoc w scenie 2 ma być nagła i brzydka. Nie zapowiadaj inicjatywy, dopóki ktoś z graczy nie zdecyduje się działać. Opisz pierwszy cios i zapytaj: co robicie?</p></div>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "dQ4ICXdgdyksoAKC",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.dQ4ICXdgdyksoAKC",
+   "name": "3. Jak grać NPC-ów",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ul><li><b>Magnus</b> — miękki głos, pot, sapanie. Wszystko robi powoli. Nigdy nie strzela (nie ma naboi), ale celuje do wszystkich. Kocha „rodzinę” Dacrois, bo to pierwsze miejsce, gdzie ktoś go szanuje.</li>\n<li><b>Merl</b> — prawie nic nie mówi. Patrzy. Zawsze stoi przy Magnusie. Jeśli gracze zapytają, czy wszystko w porządku, wzrusza ramionami.</li>\n<li><b>Mama Dacrois</b> — za blisko, oblizuje wargi, karmi. Jej świat to syn i kuchnia.</li>\n<li><b>Jatzek</b> — duże dziecko w ciele olbrzyma. Krótkie zdania bez podmiotu. Dumny z Draftów.</li>\n<li><b>Token</b> — mówi szybko, łamie się, załamuje ręce. Kłamie źle. Gdy kłamie, bawi się klamrą peleryny.</li>\n<li><b>Shutterzy</b> — prawie nie mówią. Kiedy mówią, rozkazują. Nie chcą tu umierać.</li>\n<li><b>Kowal</b> — mało słów, dużo ciszy. Głos z głośników jest spokojny; spokój jest straszniejszy niż krzyk. Powtarza: „Gorzej już nie będzie”.</li>\n<li><b>Giada</b> — zawodowiec, który zbyt późno zrozumiał, w co wszedł. Ucieka, nie walczy. W finale można ją przekonać.</li></ul>"
+   },
+   "sort": 300000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "ObCqyAyPQ38pFTsM",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.ObCqyAyPQ38pFTsM",
+   "name": "4. Szyb: jak nie zabić graczy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Zjazd do szybu to miejsce, gdzie oryginał zabija. U nas nie, chyba że tak ustalicie. Powiedz to graczom wprost przed skokiem: „Jeśli się nie uda, spadniecie i będzie bolało. Nie umrzecie.” Dzięki temu będą ryzykować, zamiast się zablokować.</p>\n<p>Daj im czas na plan. Most z desek, panel windy, lina z asekuracją — każda sensowna propozycja obniża Trudność albo daje +2K (Cecha „Deski i blachy w kontenerach”).</p>"
+   },
+   "sort": 400000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "KQkaUy7z0tei4aI0",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.KQkaUy7z0tei4aI0",
+   "name": "5. Dzicz: horror, nie lochy",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<ul><li>Opisuj dźwięki, zanim pokażesz cokolwiek: tupot, drapanie, oddech.</li>\n<li>Pułapki zapowiadaj (żółte światło, skrzypienie) — to <b>Ruchy MG</b>, nie złośliwość. Gracz, który zauważy znak, powinien mieć szansę zareagować.</li>\n<li>Gendo atakują tylko słabych i samotnych. Grupa trzymająca się razem z ogniem jest prawie bezpieczna — i powinna to czuć.</li>\n<li>Rozdzielenie w pękniętym kontenerze: przeskakuj między grupami co 2–3 minuty gry, zawsze w momencie napięcia.</li></ul>"
+   },
+   "sort": 500000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "MjF3waJu0IBh0LLp",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.MjF3waJu0IBh0LLp",
+   "name": "6. Kowal: walka sprytem",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>W Wektorze nie prowadź zwykłej walki rundami, dopóki gracze nie osaczą Kowala. Zasadzka to jeden cios i ucieczka: opisz, rzuć, niech ktoś się broni, Kowal znika. Między zasadzkami pytaj: „Co robicie z bazą?”. Gracze, którzy patrzą w ekrany, blokują włazy i niszczą kamery, cofają zegar „Gniew Kowala” i zmuszają go do walki na ich warunkach.</p>"
+   },
+   "sort": 600000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  },
+  {
+   "_id": "TyUmmhnvNuSGVoFF",
+   "_key": "!journal.pages!ZQIFse6LaGvbOykj.TyUmmhnvNuSGVoFF",
+   "name": "7. Finał i wybór",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Najważniejsze zdanie przygody to krzyk Kowala, gdy widzi Case'a. Zatrzymaj grę na sekundę i zapytaj: „Kowal biegnie obok was, odsłonięty. Co robicie?”. Wszystko, co gracze zebrali w śledztwie, powinno im teraz pomóc zdecydować.</p>\n<p>Po walce zrób krótkie podsumowanie przy wspólnej tablicy tropów: co wiedzieli, czego nie. Przyznaj PD i wpisz długi do Rejestru.</p>"
+   },
+   "sort": 700000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   },
+   "image": {},
+   "video": {
+    "controls": true,
+    "volume": 0.5
+   },
+   "src": null,
+   "system": {},
+   "category": null
+  }
+ ],
+ "folder": "dF2CnTfSGUBYpHjO",
+ "sort": 200,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "categories": []
+}

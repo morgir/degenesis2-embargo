@@ -1,0 +1,19 @@
+{
+  "id": "degenesis2-embargo",
+  "title": "Degenesis 2.0 — Embargo",
+  "description": "Scenariusz startowy „Embargo” z Katharsys, przerobiony na zasady Degenesis 2.0: dzienniki MG i Szkoła MG, 5 map, 12 NPC z portretami, śledztwo, lokacje, frakcje i długi. Prywatna adaptacja do użytku przy własnym stole.",
+  "version": "0.1.0",
+  "authors": [{ "name": "morgir" }],
+  "compatibility": { "minimum": "14", "verified": "14.370" },
+  "relationships": {
+    "systems": [{ "id": "degenesis2", "type": "system", "compatibility": { "minimum": "0.6.3" } }]
+  },
+  "esmodules": ["scripts/embargo.mjs"],
+  "packs": [
+    { "name": "dzienniki", "label": "Embargo — dzienniki", "path": "packs/dzienniki", "type": "JournalEntry", "system": "degenesis2", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
+    { "name": "aktorzy", "label": "Embargo — aktorzy", "path": "packs/aktorzy", "type": "Actor", "system": "degenesis2", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } },
+    { "name": "sceny", "label": "Embargo — sceny", "path": "packs/sceny", "type": "Scene", "system": "degenesis2", "ownership": { "PLAYER": "NONE", "ASSISTANT": "OWNER" } }
+  ],
+  "packFolders": [{ "name": "Degenesis 2.0 — Embargo", "sorting": "m", "color": "#7b1e12", "packs": ["dzienniki", "aktorzy", "sceny"] }],
+  "url": "https://github.com/morgir/degenesis2-embargo"
+}

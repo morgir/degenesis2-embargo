@@ -1,0 +1,301 @@
+{
+ "_id": "AcZvJV9AgXEBHddY",
+ "_key": "!actors!AcZvJV9AgXEBHddY",
+ "name": "Sędzia Magnus",
+ "type": "npc",
+ "img": "modules/degenesis2-embargo/assets/portraits/magnus.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 2
+   },
+   "zre": {
+    "value": 2
+   },
+   "cha": {
+    "value": 3
+   },
+   "int": {
+    "value": 1
+   },
+   "psy": {
+    "value": 3
+   },
+   "ins": {
+    "value": 3
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 2
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 2
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 2
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 3
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 0
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 0
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 0
+   },
+   "dominacja": {
+    "value": 2
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 1
+   },
+   "wola": {
+    "value": 3
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 3
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "weteran",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 6,
+   "max": 6
+  },
+  "armor": 1,
+  "progBonus": 4,
+  "kult": "Sędziowie",
+  "ranga": "Sędzia miejski",
+  "motyw": "Spokój, rodzina, pełna miska",
+  "lek": "Prawdziwej walki; że Sędziowie go odwołają",
+  "sekret": "Nie ma ani jednego naboju",
+  "cena": "Szacunek i obietnica, że Tumbler będzie bezpieczny",
+  "postawa": 1,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Otyły, spocony, mówi cicho i miękko. Sześć zim temu przejeżdżał tędy do Justitian i został — Dacroisowie karmili go i słuchali jego historii. Sprowadził tu matkę. Uważa się za obrońcę osady. Merl, córkę Dacroisów, nazywa „swoją małą” i nie odstępuje jej na krok [zmiana 2.0: w oryginale jest jego żoną]. Profil walki [2.0] — podręcznik go nie podaje.</p>"
+ },
+ "items": [
+  {
+   "name": "Karabin (bez naboi)",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "7",
+    "range": "30/120",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Magnus nie ma ani jednego naboju — celuje dla postrachu",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "_id": "ox9FvuJnNYV43FJd",
+   "_key": "!actors.items!AcZvJV9AgXEBHddY.ox9FvuJnNYV43FJd",
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  },
+  {
+   "name": "Młotek",
+   "type": "bron",
+   "img": "icons/svg/sword.svg",
+   "system": {
+    "description": "",
+    "skill": "bronBiala",
+    "handling": 0,
+    "damage": "3",
+    "range": "1",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Tępa",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "_id": "Kz0ctrysk9127LDQ",
+   "_key": "!actors.items!AcZvJV9AgXEBHddY.Kz0ctrysk9127LDQ",
+   "effects": [],
+   "folder": null,
+   "sort": 100,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  },
+  {
+   "name": "Nos do kłopotów",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>W kryzysie się nie zawiesza: nigdy nie traci pierwszej rundy przez zaskoczenie [2.0].</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "_id": "BYb2r9adpaVTtaXr",
+   "_key": "!actors.items!AcZvJV9AgXEBHddY.BYb2r9adpaVTtaXr",
+   "effects": [],
+   "folder": null,
+   "sort": 200,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  }
+ ],
+ "effects": [],
+ "folder": "P1aMZP6gwdf5QN5g",
+ "sort": 100,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "prototypeToken": {
+  "name": "Sędzia Magnus",
+  "actorLink": false,
+  "disposition": 0,
+  "texture": {
+   "src": "modules/degenesis2-embargo/assets/tokens/magnus.webp"
+  },
+  "displayName": 20,
+  "displayBars": 20,
+  "bar1": {
+   "attribute": "ego"
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "_id": "0KILr8QtJy7djwGy",
+ "_key": "!scenes!0KILr8QtJy7djwGy",
+ "name": "Ruiny magazynów i Wektor",
+ "navName": "",
+ "navigation": true,
+ "navOrder": 2,
+ "active": false,
+ "width": 2400,
+ "height": 1600,
+ "padding": 0.05,
+ "backgroundColor": "#0b0a09",
+ "background": {
+  "src": "modules/degenesis2-embargo/assets/maps/ruiny-wektor.webp"
+ },
+ "thumb": null,
+ "grid": {
+  "type": 0,
+  "size": 100,
+  "distance": 1,
+  "units": "m",
+  "alpha": 0,
+  "color": "#000000"
+ },
+ "initial": {
+  "x": null,
+  "y": null,
+  "scale": null
+ },
+ "tokenVision": false,
+ "fog": {
+  "exploration": false
+ },
+ "environment": {
+  "darknessLevel": 0
+ },
+ "darkness": 0,
+ "tokens": [],
+ "lights": [],
+ "notes": [],
+ "sounds": [],
+ "tiles": [],
+ "walls": [],
+ "drawings": [],
+ "regions": [],
+ "folder": "Ec1Y1hPxr1ZNNj0x",
+ "sort": 200,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "13.351",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ }
+}

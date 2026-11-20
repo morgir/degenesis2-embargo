@@ -1,0 +1,266 @@
+{
+ "_id": "ludRTx2Gfzw43sot",
+ "_key": "!actors!ludRTx2Gfzw43sot",
+ "name": "Paradygma z Klastra",
+ "type": "npc",
+ "img": "modules/degenesis2-embargo/assets/portraits/paradygma.webp",
+ "system": {
+  "attributes": {
+   "cia": {
+    "value": 1
+   },
+   "zre": {
+    "value": 1
+   },
+   "cha": {
+    "value": 1
+   },
+   "int": {
+    "value": 5
+   },
+   "psy": {
+    "value": 4
+   },
+   "ins": {
+    "value": 1
+   }
+  },
+  "skills": {
+   "atletyka": {
+    "value": 0
+   },
+   "bijatyka": {
+    "value": 0
+   },
+   "sila": {
+    "value": 0
+   },
+   "bronBiala": {
+    "value": 0
+   },
+   "kondycja": {
+    "value": 0
+   },
+   "twardosc": {
+    "value": 0
+   },
+   "rzemioslo": {
+    "value": 0
+   },
+   "zwinnePalce": {
+    "value": 0
+   },
+   "prowadzenie": {
+    "value": 0
+   },
+   "mobilnosc": {
+    "value": 0
+   },
+   "strzelectwo": {
+    "value": 0
+   },
+   "skradanie": {
+    "value": 0
+   },
+   "sztuka": {
+    "value": 0
+   },
+   "obycie": {
+    "value": 0
+   },
+   "ekspresja": {
+    "value": 0
+   },
+   "przywodztwo": {
+    "value": 0
+   },
+   "negocjacje": {
+    "value": 0
+   },
+   "uwodzenie": {
+    "value": 0
+   },
+   "artefakty": {
+    "value": 4
+   },
+   "inzynieria": {
+    "value": 0
+   },
+   "skupienie": {
+    "value": 0
+   },
+   "legendy": {
+    "value": 3
+   },
+   "medycyna": {
+    "value": 0
+   },
+   "nauka": {
+    "value": 0
+   },
+   "spryt": {
+    "value": 0
+   },
+   "oszustwo": {
+    "value": 4
+   },
+   "dominacja": {
+    "value": 4
+   },
+   "wiara": {
+    "value": 0
+   },
+   "refleks": {
+    "value": 1
+   },
+   "wola": {
+    "value": 4
+   },
+   "empatia": {
+    "value": 0
+   },
+   "orientacja": {
+    "value": 0
+   },
+   "percepcja": {
+    "value": 0
+   },
+   "pierwotnosc": {
+    "value": 0
+   },
+   "przetrwanie": {
+    "value": 0
+   },
+   "oswajanie": {
+    "value": 0
+   }
+  },
+  "scale": "weteran",
+  "size": {
+   "value": 1,
+   "max": 1
+  },
+  "ego": {
+   "value": 8,
+   "max": 8
+  },
+  "armor": 2,
+  "progBonus": 3,
+  "kult": "Kronikarze",
+  "ranga": "Paradygma",
+  "motyw": "Przywrócić porządek w systemie Draftów",
+  "lek": "Skandalu",
+  "sekret": "Wie o Nullify'u więcej, niż powie",
+  "cena": "Prawda i dowody",
+  "postawa": 0,
+  "frakcja": "",
+  "eliminated": false,
+  "prymer": {
+   "value": 0,
+   "max": 0
+  },
+  "zjawiskaBonus": 0,
+  "defense": {
+   "bonus": 0
+  },
+  "wounds": {
+   "lekkie": 0,
+   "powazne": 0,
+   "krytyczna": 0
+  },
+  "notes": "<p>Lśniący kombinezon, spokojny głos. Przybywa po alarmie Tokena. Statystyki [2.0].</p>"
+ },
+ "items": [
+  {
+   "name": "Cascader",
+   "type": "bron",
+   "img": "icons/svg/target.svg",
+   "system": {
+    "description": "",
+    "skill": "strzelectwo",
+    "handling": 0,
+    "damage": "6",
+    "range": "10/30",
+    "magazine": {
+     "value": 0,
+     "max": 0
+    },
+    "qualities": "Broń Kronikarzy; wyładowanie przeskakuje na drugi cel obok (połowa obrażeń)",
+    "encumbrance": 0,
+    "equipped": true
+   },
+   "_id": "kWdkJNTwjXVk0rgc",
+   "_key": "!actors.items!ludRTx2Gfzw43sot.kWdkJNTwjXVk0rgc",
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  },
+  {
+   "name": "Paradygma",
+   "type": "potencjal",
+   "img": "icons/svg/aura.svg",
+   "system": {
+    "description": "<p>Przybywa w finale z ponad dwudziestoma Kronikarzami [Katharsys]. Imię drużyny u Kronikarzy zależy od tej rozmowy.</p>",
+    "level": 1,
+    "kult": "",
+    "prerequisite": "",
+    "zjawisko": false,
+    "poziomZjawiska": 0
+   },
+   "_id": "HeLLKc4fZTJIrYV5",
+   "_key": "!actors.items!ludRTx2Gfzw43sot.HeLLKc4fZTJIrYV5",
+   "effects": [],
+   "folder": null,
+   "sort": 100,
+   "ownership": {
+    "default": 0
+   },
+   "flags": {},
+   "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "degenesis2",
+    "systemVersion": "0.6.3"
+   }
+  }
+ ],
+ "effects": [],
+ "folder": "P1aMZP6gwdf5QN5g",
+ "sort": 1200,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ },
+ "prototypeToken": {
+  "name": "Paradygma z Klastra",
+  "actorLink": false,
+  "disposition": 0,
+  "texture": {
+   "src": "modules/degenesis2-embargo/assets/tokens/paradygma.webp"
+  },
+  "displayName": 20,
+  "displayBars": 20,
+  "bar1": {
+   "attribute": "ego"
+  }
+ }
+}

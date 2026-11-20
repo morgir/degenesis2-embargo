@@ -1,0 +1,19 @@
+{
+ "_id": "P1aMZP6gwdf5QN5g",
+ "_key": "!folders!P1aMZP6gwdf5QN5g",
+ "name": "Embargo — NPC",
+ "type": "Actor",
+ "folder": "BKBT4Et8rhtHqVU5",
+ "sorting": "a",
+ "sort": 100,
+ "color": "#4a1a12",
+ "description": "",
+ "flags": {},
+ "_stats": {
+  "compendiumSource": null,
+  "duplicateSource": null,
+  "coreVersion": "14.370",
+  "systemId": "degenesis2",
+  "systemVersion": "0.6.3"
+ }
+}
