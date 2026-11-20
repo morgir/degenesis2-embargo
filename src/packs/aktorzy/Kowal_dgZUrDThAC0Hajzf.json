@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": -1,
     "damage": "11",
-    "range": "2",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -240,7 +240,7 @@
    "type": "potencjal",
    "img": "icons/svg/aura.svg",
    "system": {
-    "description": "<p>Atakuje z ukrycia i znika przez włazy. Zaatakowany broni się aktywnie PSY+Refleks albo CIA+Broń biała; wygrana z 3 Wyzwalaczami = kontratak [Katharsys].</p>",
+    "description": "<p>Atakuje z ukrycia i znika przez włazy. Zaatakowany broni się aktywnie Psyche + Refleks albo Ciało + Broń biała; wygrana z 3 Wyzwalaczami = kontratak [Katharsys].</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

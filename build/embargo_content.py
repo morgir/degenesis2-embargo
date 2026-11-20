@@ -22,7 +22,7 @@ ADVENTURE = [
 <tr><td>III. Dzicz</td><td>6. Zjazd · 7. Dzicz Kowala</td><td>ciemność, polowanie, pułapki</td><td>Wektor — hala (Dzicz)</td></tr>
 <tr><td>IV. Wektor</td><td>8. Wnętrze · 9. Spalarnia i finał</td><td>zasadzki, prawda, wybór</td><td>Wektor — wnętrze i spalarnia</td></tr></table>
 <h3>Co jest w module</h3>
-<ul><li><b>Sceny</b>: 5 map z siatką 1 m (osada, izba, ruiny, hala, wnętrze Wektora).</li>
+<ul><li><b>Sceny</b>: 5 map (siatka tylko dla orientacji, ruch liczymy strefami) (osada, izba, ruiny, hala, wnętrze Wektora).</li>
 <li><b>Aktorzy</b>: 12 postaci niezależnych z portretami i żetonami, wataha Gendo jako Banda, Śledztwo z tropami i zegarami, 4 Lokacje z Cechami, 3 Frakcje, Rejestr Długów.</li>
 <li><b>Dzienniki</b>: ta przygoda, „Szkoła MG: Embargo” (jak to poprowadzić krok po kroku) i handouty dla graczy.</li></ul>
 <h3>Zmiany względem oryginału</h3>
@@ -54,15 +54,15 @@ ADVENTURE = [
 
 ("2. Scena 1: Tumbler", read("Droga od kilku dni ciągnie się przez nic. Wreszcie przy rozjeździe stoi przekrzywiona tablica z wypalonym napisem: TUMBLER. Za nią, w zagłębieniu między wydmami pyłu, rozciąga się długi, niski budynek z dymiącym kominem. Z otwartych drzwi niesie się brzęk garnków i zapach pieczonego mięsa. Obok stoi coś na kształt kapliczki z blachy i anten — Alkowa Kronikarzy. Nad wszystkim góruje drewniana wieża strażnicza.") +
  read("Na szczycie wieży ktoś stoi. Szeroki kapelusz, twarz w cieniu, lufa karabinu wycelowana prosto w was.") + """
-<p><b>Rzut (opcjonalny):</b> INT+Legendy (Trudność 2) — ktoś kiedyś wspominał o gorzelni o tej nazwie na skraju Protektoratu. Czasy świetności ma za sobą.</p>
+<p><b>Rzut (opcjonalny):</b> Intelekt + Legendy (Trudność 2) — ktoś kiedyś wspominał o gorzelni o tej nazwie na skraju Protektoratu. Czasy świetności ma za sobą.</p>
 <h3>Wieża i Sędzia Magnus</h3>
 <p>Jeśli postacie pomachają, postać na wieży odmacha. Po chwili po drabinie schodzi z sapaniem otyły Sędzia. Na dole opiera się na karabinie i łapie oddech, nie spuszczając przybyszy z oczu. Za nim zwinnie zeskakuje blada dziewczynka, może dwunastoletnia, i staje w jego cieniu.</p>
 """ + read("Grubas ociera pot z czoła rękawem, rozmazując kurz. Uśmiecha się szeroko. — Magnus. Sędzia miejski Magnus. — Głos ma cichy, miękki, prawie miły. Kładzie dłoń na karku dziewczynki. — A to Merl, moja mała. Moja rodzina. Nie gap się tak, kochanie. — Drzwi karczmy skrzypią. Chuda kobieta o długich, białych włosach macha do was z progu. — Zapraszamy! — woła. Magnus rozkłada ramiona. — Nalegamy. Prawda, że nalegamy? — Nachyla się do was konspiracyjnie. — Jest mięso!") + """
 <h3>Izba</h3>
 """ + read("W środku jest ciemnawo i duszno. Kurz wisi w smugach światła. W kącie siedzi dwóch ludzi i w milczeniu wpatruje się w garnek z mięsem. Górne połowy ich twarzy, od kości policzkowych po linię włosów, są czarne od sadzy. Głowy mają niedbale ogolone, kosmyki zwisają im na czoła.") + """
-<p>To dwaj <b>Shutterzy</b>, wysłani przez Case'a na zwiad. INS+Percepcja (3) przy podejściu: na czołach mają wzór linii, może kod kreskowy Kronikarzy, a z płatka ucha każdego wycięto kawałek wielkości paznokcia. Jeśli ktoś do nich podejdzie, patrzą pusto i odwracają się bez słowa.</p>
+<p>To dwaj <b>Shutterzy</b>, wysłani przez Case'a na zwiad. Instynkt + Percepcja (3) przy podejściu: na czołach mają wzór linii, może kod kreskowy Kronikarzy, a z płatka ucha każdego wycięto kawałek wielkości paznokcia. Jeśli ktoś do nich podejdzie, patrzą pusto i odwracają się bez słowa.</p>
 <p><b>Mama Dacrois</b> sadza gości i stawia miski z mięsem w ciemnym sosie. Ma blisko osadzone oczy, oblizuje wargi i za każdym razem stoi odrobinę za blisko. — Sama zarżnęłam. Dobre? Jeszcze? — Jedzenie jest w porządku, trochę kwaskowe. To Gendo. Magnus z Merl wychodzą: „Mamy robotę”.</p>
-<p><b>Alkowa:</b> postacie mogą od razu zajrzeć do <b>Tokena</b> — sprzedać złom albo wypytać o okolicę. Jeśli przyjdą przed sceną 2, Token jest roztrzęsiony. INS+Empatia (2): to poczucie winy. Zapytany, burczy, że „inni Kronikarze zawsze go denerwują”, i kiwa głową w stronę karczmy.</p>
+<p><b>Alkowa:</b> postacie mogą od razu zajrzeć do <b>Tokena</b> — sprzedać złom albo wypytać o okolicę. Jeśli przyjdą przed sceną 2, Token jest roztrzęsiony. Instynkt + Empatia (2): to poczucie winy. Zapytany, burczy, że „inni Kronikarze zawsze go denerwują”, i kiwa głową w stronę karczmy.</p>
 <h3>Cechy miejsca [2.0]</h3>
 <ul><li><b>Ciasna izba pełna butelek</b> (jawna) — każda walka w środku coś rozbija.</li>
 <li><b>Wieża strażnicza nad drogą</b> (jawna) — widać z niej ruiny na północy i każdego, kto nadchodzi.</li>
@@ -80,7 +80,7 @@ ADVENTURE = [
 <h3>Jeśli pobiegną po Magnusa</h3>
 <p>Magnus za karczmą uczy Merl trzymać młotek. Walczyć nigdy nie umiał, a lata miski mięsa nie pomogły, ale w kryzysie się nie zawiesza: łapie młotek i drepcze do karczmy. Pomoże, ale to kosztuje czas, którego Jatzek nie ma (<b>Koszt: Jatzek otrzymuje ranę Krytyczną</b>, chyba że ktoś inny działał w środku).</p>
 <h3>Jeśli wejdą do walki</h3>
-<ul><li><b>Zastraszenie:</b> pierwszy Shutter wrzeszczy: — Spieprzać, dziwolągi! Starcie: jego PSY+Dominacja 6K przeciw PSY+Wiara/Wola każdej postaci, która chce działać. Przegrany traci pierwszą rundę i Ego równe Wyzwalaczom Shuttera.</li>
+<ul><li><b>Zastraszenie:</b> pierwszy Shutter wrzeszczy: — Spieprzać, dziwolągi! Starcie: jego Psyche + Dominacja 6K przeciw Psyche + Wiara/Wola każdej postaci, która chce działać. Przegrany traci pierwszą rundę i Ego równe Wyzwalaczom Shuttera.</li>
 <li><b>Runda 1:</b> jeden Shutter kopie stoły i krzesła pod nogi atakujących (Cecha „Przewrócone stoły” z darmowym wywołaniem przeciw wejściu w zwarcie: −2K). Atakuje Shockerem każdego w zasięgu.</li>
 <li>Drugi przeskakuje ladę i chwyta Mamę Dacrois jako tarczę: <b>Obrona +2 przeciw strzałom</b> do niego [2.0: w podręczniku +3]. Po rundzie skręca jej głowę — kobieta krzyczy z bólu. Jeśli postacie natychmiast się nie cofną, ogłusza ją kolbą i rzuca w nie.</li>
 <li><b>Ucieczka:</b> żaden Shutter nie chce tu umierać. Po drugiej rundzie albo pierwszej ranie Poważnej obaj uciekają do ruin, do Case'a (zegar „Czystka Case'a” +1, Shutterzy wrócą w finale).</li></ul>
@@ -91,7 +91,7 @@ ADVENTURE = [
 
 ("4. Scena 3: Spowiedź Tokena", """
 <h3>Wielkie znalezisko Jatzeka</h3>
-<p>Nawet jeśli Jatzek przeżyje, jest w szoku i cofa się przed każdym obcym. Rodzice stoją bezradnie i nie przeszkadzają, gdy ktoś próbuje z nim rozmawiać. <b>INS+Empatia (3).</b> Porażka: chłopak młóci rękami i ucieka w kąt. Sukces: uspokaja się i odpowiada prostymi zdaniami:</p>
+<p>Nawet jeśli Jatzek przeżyje, jest w szoku i cofa się przed każdym obcym. Rodzice stoją bezradnie i nie przeszkadzają, gdy ktoś próbuje z nim rozmawiać. <b>Instynkt + Empatia (3).</b> Porażka: chłopak młóci rękami i ucieka w kąt. Sukces: uspokaja się i odpowiada prostymi zdaniami:</p>
 """ + read("— Nie ukradłem. Znalazłem coś. Wiem, nie wolno chodzić do pułapek. Ale tam znalazłem. Pani Kronikarka powiedziała, że to znalezisko. Chciała. Zapłaciła. Mama z tatą mieli dać klientom. Nie ukradłem!") + """
 <p>Jatzek był w Wektorze i dostał stos fałszywych Draftów za artefakt. Kowal chciał zwabić winowajcę — i mu się udało. Chłopak mógłby zaprowadzić drużynę na miejsce, ale jest wyczerpany. Mama Dacrois odsyła go do łóżka.</p>
 <h3>Token przychodzi sam</h3>
@@ -101,10 +101,10 @@ ADVENTURE = [
 """ + read("— Ale możemy to naprawić. — Nachyla się i szepcze. — Potrzebuję tylko dowodu. Idźcie do tej fałszywej Alkowy i sprzedajcie im to. — Wskazuje na stół: paczka wielkości kota, owinięta taśmą, z kikutami anten. — Weźcie Drafty, przynieście mi je. Zeskanuję, zgłoszę fałszerza Klastrowi. Problem rozwiązany.") + """
 <h3>Artefakt jest bombą</h3>
 <p>„Odbiornik zerowy, odłączony od Strumienia” to w rzeczywistości ładunek wybuchowy, uruchamiany sygnałem z dowolnego stołu analitycznego w Alkowie. Z zewnątrz nie da się tego poznać, a gruba warstwa taśmy zniechęca do rozpakowania. Podejrzliwym Token mówi, że urządzenie wyśle mu sygnał, gdy dotrze na miejsce.</p>
-<ul><li><b>INS+Empatia (3)</b> przeciw jego PSY+Oszustwo (2K): Token coś ukrywa w sprawie paczki. Dwa Wyzwalacze: boi się jej.</li>
-<li><b>INT+Artefakty (4)</b> albo rozpakowanie: to bomba. Token przyznaje się, płacząc, i błaga, żeby ją jednak podłożyli: „Oni zabiją Dacroisów!”.</li></ul>
+<ul><li><b>Instynkt + Empatia (3)</b> przeciw jego Psyche + Oszustwo (2K): Token coś ukrywa w sprawie paczki. Dwa Wyzwalacze: boi się jej.</li>
+<li><b>Intelekt + Artefakty (4)</b> albo rozpakowanie: to bomba. Token przyznaje się, płacząc, i błaga, żeby ją jednak podłożyli: „Oni zabiją Dacroisów!”.</li></ul>
 <h3>Jeśli drużyna odmówi</h3>
-<p>Token na to nie pozwoli. Z rozpaczy woła Magnusa, a ten przekonuje postacie (CHA+Negocjacje 6K, Postawa ich wobec sprawy Nieufna), że tylko one mogą odwrócić gniew Klastra od Tumblera. W ostateczności Token idzie sam — i ginie w ruinach, a Shutterzy wracają do karczmy nocą (zegar „Czystka Case'a” +2).</p>
+<p>Token na to nie pozwoli. Z rozpaczy woła Magnusa, a ten przekonuje postacie (Charyzma + Negocjacje 6K, Postawa ich wobec sprawy Nieufna), że tylko one mogą odwrócić gniew Klastra od Tumblera. W ostateczności Token idzie sam — i ginie w ruinach, a Shutterzy wracają do karczmy nocą (zegar „Czystka Case'a” +2).</p>
 <h3>Nagrody tej sceny [2.0]</h3>
 <ul><li>Przyjęcie zadania: <b>dług Poważny</b> Tokena wobec drużyny (Rejestr Długów).</li>
 <li>Uratowanie Jatzeka: Imię u rodziny Dacrois +1.</li></ul>
@@ -114,17 +114,17 @@ ADVENTURE = [
 <p>„Fałszywa Alkowa” leży w zespole magazynów niedaleko. Token opisał drogę, ale mógł być dokładniejszy: opis prowadzi do kompleksu, ale nie do wejścia.</p>
 """ + read("Hale stoją rzędami jak wielkie, zapomniane trumny. Na ich płaskich dachach rosną drzewa i wyciągają gałęzie w niebo jak rozcapierzone palce. Z gałęzi zwisa suchy mech. Korzenie oplatają ściany i nigdzie nie sięgają ziemi. W cienistych przesmykach między halami gęstnieją krzaki. Każda ściana jest pokryta runami Złomiarzy.") + """
 <h3>Runy</h3>
-<p>Złomiarz w drużynie: <b>INT+Legendy (1)</b>.</p>
+<p>Złomiarz w drużynie: <b>Intelekt + Legendy (1)</b>.</p>
 <ul><li><b>Sukces:</b> tu musiało być wielkie szukanie. Wiele run jest nieznanych i powinny być stare, a nie są porośnięte porostem. Ktoś wyrył je niedawno — i bardzo wielu „młodych Złomiarzy”. Część run ostrzega przed niebezpieczeństwem.</li>
 <li><b>1 Wyzwalacz:</b> znaki są niechlujne i niespójne. Żaden Złomiarz nie robi tak byle jak.</li>
 <li><b>2 Wyzwalacze:</b> tylko jedna runa jest prawdziwa: należy do <b>Draffa</b>, znanego Złomiarza, którego od lat nikt nie widział w Justitian. Wszystkie inne to fałszywki.</li></ul>
 <h3>Ślady</h3>
-<p><b>INS+Orientacja (3)</b> albo <b>INS+Przetrwanie (3)</b>: ślady ciężkiego, powłóczącego nogami człowieka — pewnie Jatzeka. Dwa Wyzwalacze: kilkudniowe ślady wysokiego mężczyzny i kobiety, a między nimi tropy Gendo, raz pod, raz nad śladami mężczyzny — zwierzęta szły razem z nim. Ślady prowadzą prosto do Wektora.</p>
+<p><b>Instynkt + Orientacja (3)</b> albo <b>Instynkt + Przetrwanie (3)</b>: ślady ciężkiego, powłóczącego nogami człowieka — pewnie Jatzeka. Dwa Wyzwalacze: kilkudniowe ślady wysokiego mężczyzny i kobiety, a między nimi tropy Gendo, raz pod, raz nad śladami mężczyzny — zwierzęta szły razem z nim. Ślady prowadzą prosto do Wektora.</p>
 <h3>Punkt widokowy</h3>
-<p>Po korzeniach da się wspiąć na dachy (CIA+Atletyka 2). Z góry widać betonowy budynek wyrastający ponad hale w środku kompleksu. Dachy są zarośnięte, częściowo zawalone, połączone zwalonymi pniami. Kto idzie górą, dostrzega w przesmyku sylwetkę mężczyzny, który zauważa, że jest obserwowany, i znika w jednej z hal. <b>To był Case.</b></p>
+<p>Po korzeniach da się wspiąć na dachy (Ciało + Atletyka 2). Z góry widać betonowy budynek wyrastający ponad hale w środku kompleksu. Dachy są zarośnięte, częściowo zawalone, połączone zwalonymi pniami. Kto idzie górą, dostrzega w przesmyku sylwetkę mężczyzny, który zauważa, że jest obserwowany, i znika w jednej z hal. <b>To był Case.</b></p>
 <h3>Grób Złomiarza</h3>
 <p>W halach jest trochę starych instalacji: można z nich wyciągnąć 2K kg złomu techniki IV. I szkielet. Tył czaszki spalony, włosy skręcone i stopione, kości pokryte śladami zębów. Do plecaka przywiązano kilka metalowych płytek z tą samą runą, która jest na murach: runą Draffa. Przy zwłokach leży przerobiony rewolwer z sześcioma nabojami kalibru .50.</p>
-<p>Spitalianin lub inny medyk, <b>INT+Medycyna (3)</b>: taką ranę mógł zadać tylko mocny Shocker.</p>
+<p>Spitalianin lub inny medyk, <b>Intelekt + Medycyna (3)</b>: taką ranę mógł zadać tylko mocny Shocker.</p>
 <h3>Cechy [2.0]</h3>
 <ul><li><b>Fałszywe runy na każdej ścianie</b> (jawna).</li>
 <li><b>Dachy połączone pniami</b> (jawna) — droga górą: cicho i z widokiem, ale łatwo spaść.</li>
@@ -151,9 +151,9 @@ ADVENTURE = [
 ("7. Scena 6: Zjazd", """
 <p>Postacie są uwięzione w hali. Jedyna droga prowadzi w dół. Są dwie możliwości.</p>
 <h3>Wspinaczka</h3>
-<p>Stalowa lina wisi około dwóch kroków od krawędzi szybu. Da się do niej doskoczyć (<b>CIA+Atletyka 3</b> albo <b>ZRĘ+Mobilność 3</b>) i zjechać (ten sam test). Ostrożni mogą zbudować most z desek i blach z przeciwwagą: <b>INT+Inżynieria (3)</b> i nie trzeba skakać. Zjeżdżający mogą sobie pomagać: postać, która już stoi pewnie, oddaje sukcesy temu, komu brakuje.</p>
+<p>Stalowa lina wisi około dwóch kroków od krawędzi szybu. Da się do niej doskoczyć (<b>Ciało + Atletyka 3</b> albo <b>Zręczność + Mobilność 3</b>) i zjechać (ten sam test). Ostrożni mogą zbudować most z desek i blach z przeciwwagą: <b>Intelekt + Inżynieria (3)</b> i nie trzeba skakać. Zjeżdżający mogą sobie pomagać: postać, która już stoi pewnie, oddaje sukcesy temu, komu brakuje.</p>
 <h3>Technika</h3>
-<p>Przy ścianie jest awaryjny panel windy, zablokowany przez nadpisanie. Dobry technik otworzy go i usunie blokadę: <b>INT+Inżynieria (4)</b>. Z szarpnięciem winda rusza i da się nią sterować.</p>
+<p>Przy ścianie jest awaryjny panel windy, zablokowany przez nadpisanie. Dobry technik otworzy go i usunie blokadę: <b>Intelekt + Inżynieria (4)</b>. Z szarpnięciem winda rusza i da się nią sterować.</p>
 <h3>Upadek w 2.0 [zmiana]</h3>
 <p>W podręczniku nieudany test oznacza śmierć. W 2.0 bez ogłoszonej <b>Stawki Śmierci</b> nikt tu nie ginie:</p>
 <ul><li><b>Tak, ale…</b> — łapie linę w ostatniej chwili: Lekka rana od otartych dłoni albo upuszczony sprzęt.</li>
@@ -176,14 +176,14 @@ ADVENTURE = [
 <p>Kto przeszuka ściany, dostrzega wysoko schody biegnące wzdłuż jednej ściany hali, coraz wyżej, aż do drzwi. Podnóże schodów jest na drugim końcu hali.</p>
 <h3>„Tędy”</h3>
 <p>Na kontenerach wielkie białe napisy „TĘDY” ze strzałkami. Kto im nie ufa i idzie inaczej, wpada w pułapkę. Dwadzieścia kroków dalej stoi „Kronikarz” sprzed chwili — bez maski widać, że to kobieta. <b>Giada.</b> Przyciska coś do piersi, między palcami żółte światło. Gdy postacie podejdą, wciska guzik, upuszcza to i ucieka.</p>
-<p>Na sąsiednim kontenerze Kowal zebrał złom. Linką odpala obciążnik, który uderza w tę ścianę złomu — lawina. Unik: <b>ZRĘ+Mobilność (3)</b> albo <b>CIA+Atletyka (3)</b>. Porażka: 4 obrażenia (pancerz chroni) [2.0: w podręczniku 1K]. Kto idzie za strzałkami „TĘDY”, wpadnie w tę samą pułapkę gdzie indziej.</p>
-<p>Kolejna strzałka („TU, GÓRĄ”) jest mniej łaskawa: prowadzi po blachach na dachy kontenerów. Jeśli łączne <b>CIA wszystkich postaci na górze wynosi 9 lub więcej</b>, kruchy metal pęka z trzaskiem i najcięższa postać zapada się po pas. Gendo czują słabość i atakują jej nogi od środka kontenera. Drużyna musi się rozdzielić.</p>
+<p>Na sąsiednim kontenerze Kowal zebrał złom. Linką odpala obciążnik, który uderza w tę ścianę złomu — lawina. Unik: <b>Zręczność + Mobilność (3)</b> albo <b>Ciało + Atletyka (3)</b>. Porażka: 4 obrażenia (pancerz chroni) [2.0: w podręczniku 1K]. Kto idzie za strzałkami „TĘDY”, wpadnie w tę samą pułapkę gdzie indziej.</p>
+<p>Kolejna strzałka („TU, GÓRĄ”) jest mniej łaskawa: prowadzi po blachach na dachy kontenerów. Jeśli łączne <b>Ciało wszystkich postaci na górze wynosi 9 lub więcej</b>, kruchy metal pęka z trzaskiem i najcięższa postać zapada się po pas. Gendo czują słabość i atakują jej nogi od środka kontenera. Drużyna musi się rozdzielić.</p>
 <h3>Pułapki [jako Ruchy MG]</h3>
 <p>Kowal chce drużynę rozbić i zmęczyć, więc posyła Giadę, żeby uruchamiała pułapki. Możesz dodawać własne, ale nie każda musi działać — może Gendo dopadnie Giadę, a ta będzie musiała uciekać albo bronić się Shockerem. Każdą pułapkę traktuj jak <b>Ruch MG</b>: zapowiedz zagrożenie (skrzypienie, żółte światło) i daj graczom szansę zareagować.</p>
 <h3>Most suwnicy</h3>
 <p>Im bliżej środka hali, tym więcej kontenerów. Drogę zastawia most suwnicy, której silnik i tor osadzono wysoko w ścianie. Dawno temu przenosiła kilka kontenerów naraz. Dziś z chwytaków zwisa dziesięć kontenerów, jak gigantyczne dzwonki wietrzne. Siedem jest poza zasięgiem, ale trzy niskie tworzą wiszący most przed ścianą z kontenerów, spięty blachami i linami. Na dole po lewej wejście po rusztowaniu ze złomu, na górze po prawej most kończy się na szczycie ściany kontenerów.</p>
 """ + read("Ledwo zaczynacie się wspinać, z głośników dudni głos Kowala: — Chcecie wrócić do swojej starej nory. Zatrzeć ślady. To wyślę wam waszego kumpla. — Na górze znów widzicie Giadę. Przebiega po deskach, kontenery kołyszą się pod jej krokami. Wyciąga kogoś i pcha przed sobą po linie prowadzącej. Postać sunie ku wam coraz szybciej, nogi bezwładnie uderzają o blachy, ręce przyciśnięte do boków, kaptur łopocze na wietrze.") + """
-<p>Na wiszącym moście prawie nie ma miejsca na unik. Pierwsza postać: <b>ZRĘ+Mobilność (3)</b> [2.0: w podręczniku 4]. Jeśli odskoczy, może trafić następną — każdy rzuca. Trafiony spada 3–4 metry: Lekka rana, ale na dole czekają Gendo. Jeśli wszyscy zrobią unik, „pocisk” trafia pierwsze Gendo, które z przetrąconym karkiem wyje na dnie hali.</p>
+<p>Na wiszącym moście prawie nie ma miejsca na unik. Pierwsza postać: <b>Zręczność + Mobilność (3)</b> [2.0: w podręczniku 4]. Jeśli odskoczy, może trafić następną — każdy rzuca. Trafiony spada 3–4 metry: Lekka rana, ale na dole czekają Gendo. Jeśli wszyscy zrobią unik, „pocisk” trafia pierwsze Gendo, które z przetrąconym karkiem wyje na dnie hali.</p>
 """ + read("Kaptur spada z twarzy. To trup Kronikarza przywiązany drutem do liny. W płatku ucha brakuje mu trójkąta wielkości paznokcia — dokładnie jak u Shutterów w karczmie.") + """
 <p>Jeśli postacie odeprą część watahy, Gendo porzucają trudną zdobycz i rzucają się na zwłoki Kronikarza.</p>
 <h3>Wataha w 2.0</h3>
@@ -191,7 +191,7 @@ ADVENTURE = [
 <h3>Cechy [2.0]</h3>
 <ul><li><b>Ciemność i pył</b> (jawna) — bez światła −2K do wszystkiego, co wymaga wzroku.</li>
 <li><b>Wataha krąży</b> (jawna) — kto zostaje sam, jest celem.</li>
-<li><b>Strzałki „TĘDY” prowadzą w pułapki</b> (ukryta; INS+Percepcja 3 albo ktoś, kto zna Apokaliptyków).</li>
+<li><b>Strzałki „TĘDY” prowadzą w pułapki</b> (ukryta; Instynkt + Percepcja 3 albo ktoś, kto zna Apokaliptyków).</li>
 <li><b>Głośniki i kamery Kowala</b> (ukryta) — on widzi wszystko; zniszczenie kamer odbiera mu przewagę.</li></ul>
 """ + gm("Prowadź Dzicz jak horror, nie jak lochy. Nie rysuj od razu całej mapy — odsłaniaj ją latarką (w Foundry: Token Vision, Mgła i światło na żetonie z latarką). Rozdzielenie drużyny w pękniętym kontenerze to najmocniejszy moment aktu. Daj każdej połówce scenę po kolei, a zegar zagrożenia niech tyka dla obu.") + "<p><b>Mapa:</b> Wektor — hala (Dzicz). <b>Odgłosy:</b> „Podziemia, kanały”.</p>"),
 
@@ -202,18 +202,18 @@ ADVENTURE = [
 <h3>Wnętrze</h3>
 """ + read("Wnętrze Wektora to sam szkielet. Zostało kilka ścian, tam gdzie wycięto podłogę, biegną stalowe kratownice. Gdzieniegdzie widać przez nie serce bazy — spalarnię, w której płomień drga między żółtym ogniem a niebieskimi promieniami. Bucha żar. Gdy przechodzicie obok, ekrany ożywają z trzaskiem i pokazują w szybkich seriach ziarniste zdjęcia: ogromny Złomiarz w Alkowie, nad jego głową czerwony napis EMBARGO. Na innych ten sam człowiek przed bramą Wektora, podpisany: OBIEKT PRÓBNY 1, 3000 DRAFTÓW. W rogach siedzą kamery jak przerośnięte owady. Na ekranach widzicie samych siebie.") + """
 <h3>Drukarka Draftów</h3>
-<p>W jednym bloku kontenerów stoi drukarka wielkości stołu. Mruga jak stroboskop i wypluwa Drafty pokryte symbolami zamiast liczb. Z sufitu zwisają kable, ściany oblepione pożółkłym papierem z liniami, wzorami i schematami: mapa kodu Draftów. <b>INT+Nauka (4)</b> [2.0: w podręczniku 6]: kod liczy się z kilku danych — miejsca, czasu, numeru Kronikarza i wartości banknotu. Kronikarz w drużynie, który to zrozumie, dostaje <b>+1 do Sekretów</b> (Zaplecze).</p>
+<p>W jednym bloku kontenerów stoi drukarka wielkości stołu. Mruga jak stroboskop i wypluwa Drafty pokryte symbolami zamiast liczb. Z sufitu zwisają kable, ściany oblepione pożółkłym papierem z liniami, wzorami i schematami: mapa kodu Draftów. <b>Intelekt + Nauka (4)</b> [2.0: w podręczniku 6]: kod liczy się z kilku danych — miejsca, czasu, numeru Kronikarza i wartości banknotu. Kronikarz w drużynie, który to zrozumie, dostaje <b>+1 do Sekretów</b> (Zaplecze).</p>
 <p><b>Wniosek [2.0]:</b> to dobry moment, by gracze połączyli tropy (Drafty Jatzeka, fałszywe runy, grób Draffa, zdjęcia EMBARGO, drukarka). Prawidłowa teoria: „ktoś z Kronikarzy drukował tu fałszywki, wrobił w nie Kowala, a Kowal zastawił pułapkę na niego, nie na nas”. MG odpowiada „ciepło” i dodaje fakt: Kowal ma na ekranie zdjęcia Case'a sprzed tygodnia.</p>
 <h3>Zasadzka</h3>
 <p>Wektor to labirynt otwartych pomieszczeń, krętych korytarzy i ramp, a każdy kąt ma kamerę. Kowal czai się za rogami albo zeskakuje przez włazy w suficie za plecami wrogów, atakuje i znika, zatrzaskując za sobą klapy, albo skacze przez dziury piętro niżej. Jego kroki dudnią po blachach i niosą się echem.</p>
-<ul><li><b>Atak z zaskoczenia:</b> zaatakowana postać może się bronić aktywnie (1 Ego): Starcie <b>PSY+Refleks</b> albo <b>CIA+Broń biała</b> (wyższa pula) przeciw jego ataku. Wygrana z 3 Wyzwalaczami — kontratak.</li>
+<ul><li><b>Atak z zaskoczenia:</b> zaatakowana postać może się bronić aktywnie (1 Ego): Starcie <b>Psyche + Refleks</b> albo <b>Ciało + Broń biała</b> (wyższa pula) przeciw jego ataku. Wygrana z 3 Wyzwalaczami — kontratak.</li>
 <li>Do walki zmusisz go tylko, wykorzystując bazę:
 <ul><li>obserwując ekrany i kamery, drużyna znajduje bezpieczne korytarze (mniej okazji do zasadzki);</li>
 <li>zablokowane włazy odcinają mu drogi ucieczki;</li>
 <li>zniszczone kamery oślepiają go;</li>
 <li>jeśli drużyna się rozdzieli, Kowal schodzi do walki jeden na jeden — a w pojedynkę jest prawie nie do pokonania.</li></ul></li>
 <li>Pierwsze sukcesy pokaż, pozwalając komuś kontratakować, zanim Kowal znów zniknie. Kowal zrywa ekrany z uchwytów i rzuca nimi, przewraca kondensatory, które suną po kratownicy, sypiąc iskrami, ciągnie łańcuchy, opuszczając płyty sufitu między sobą a drużyną.</li>
-<li>Gdy postacie w końcu przejmą teren, rzucają w <b>Starciu CIA+Atletyka</b> z Kowalem, żeby go dogonić i osaczyć. Pościg prowadzi do spalarni.</li></ul>
+<li>Gdy postacie w końcu przejmą teren, rzucają w <b>Starciu Ciało + Atletyka</b> z Kowalem, żeby go dogonić i osaczyć. Pościg prowadzi do spalarni.</li></ul>
 <h3>Cechy [2.0]</h3>
 <ul><li><b>Kamery i ekrany</b> (jawna) — Kowal widzi drużynę; drużyna, jeśli patrzy, widzi jego.</li>
 <li><b>Włazy w suficie i podłodze</b> (jawna).</li>
@@ -228,17 +228,17 @@ ADVENTURE = [
 <ul><li>Jeśli postacie go teraz zatrzymają, nigdy im tego nie wybaczy. Jeśli przeżyje, kiedyś wróci dokończyć walkę.</li>
 <li>Jeśli go puszczą, mają cień szansy na dobre zakończenie i Kowala jako sojusznika.</li></ul>
 <h3>Case</h3>
-<p>Case wchodzi do Wektora drzwiami awaryjnymi. Giada biegnie prosto na niego i nie ma szans z Fuse'em. Kto pobiegnie za Kowalem, widzi Giadę cofającą się przed Case'em na podeście; ten mierzy do niej z pistoletu maszynowego. Kowal biegnie na podest, wrzeszcząc bez przerwy. Od drużyny do Case'a jest niewiele ponad 40 metrów w linii prostej. Jeśli nikt go nie rozproszy, Case pociągnie za spust i skosi Giadę, zanim Kowal dobiegnie. Tylko strzał w Case'a teraz może odwrócić losy — trafienie odrzuci Fuse'a i da Kowalowi czas.</p>
+<p>Case wchodzi do Wektora drzwiami awaryjnymi. Giada biegnie prosto na niego i nie ma szans z Fuse'em. Kto pobiegnie za Kowalem, widzi Giadę cofającą się przed Case'em na podeście; ten mierzy do niej z pistoletu maszynowego. Kowal biegnie na podest, wrzeszcząc bez przerwy. Od drużyny do Case'a jest jedna strefa (Daleko) w linii prostej. Jeśli nikt go nie rozproszy, Case pociągnie za spust i skosi Giadę, zanim Kowal dobiegnie. Tylko strzał w Case'a teraz może odwrócić losy — trafienie odrzuci Fuse'a i da Kowalowi czas.</p>
 <h3>Czyściciele</h3>
 <p>Cokolwiek się stanie, Case wycofuje się na zewnątrz. Jeśli jego Shutterzy przeżyli karczmę, są przy nim. Zaczyna się ostatnia walka. Kowal walczy sam, jeśli jeszcze może — ale drużyny już nie atakuje.</p>
 """ + read("Gdy Case pada, od strony ruin nadchodzi tłum Kronikarzy. Ponad dwudziestu, wśród nich Paradygma w lśniącym kombinezonie. Wszyscy mają Shockery albo Cascadery, napięci, gotowi do walki. Jeden z nich biegnie przodem i zdejmuje maskę. To Token. — Spokojnie — mówi. — To my jesteśmy ci dobrzy. — W oczach ma łzy ulgi.") + """
 <p>Drużyna musi wyjaśnić, co się stało, ale Token za nią poręczy. Jeśli postacie same nie rozumieją wszystkiego, Paradygma wspomni o embargu i wyjaśni, że opierało się na użyciu fałszywych pieniędzy.</p>
 <h3>Jeśli drużyna ma bombę Tokena [2.0]</h3>
-<p>Bomba, której nie podłożyli, może zakończyć walkę z Case'em jednym rzutem (rzucona: 10 obrażeń w promieniu 3 m, −1 za metr) — albo zostać dowodem przeciw Tokenowi przed Paradygmą. To ich wybór i ich Dług.</p>
+<p>Bomba, której nie podłożyli, może zakończyć walkę z Case'em jednym rzutem (rzucona: 10 obrażeń dla wszystkich w strefie celu, połowa dla tych Blisko) — albo zostać dowodem przeciw Tokenowi przed Paradygmą. To ich wybór i ich Dług.</p>
 <h3>Walka w 2.0</h3>
 <ul><li><b>Kowal</b> (antagonista, Próg 10): topór rzeźniczy 11 obrażeń; Wyzwalacze mogą zamiast obrażeń powalić. Na ataki mentalne odporny (pula 10, „stoik”).</li>
 <li><b>Case</b> (weteran, Próg 5): pistolet maszynowy 7 obrażeń, seria (3). Ucieka, gdy dostanie ranę Poważną i nie ma już Shutterów.</li>
-<li><b>Giada</b> (weteran): nie chce walczyć. Shocker, pule ZRĘ 8, CIA 5.</li></ul>
+<li><b>Giada</b> (weteran): nie chce walczyć. Shocker, pule Zręczności 8, Ciała 5.</li></ul>
 """ + gm("Finał opiera się na jednym wyborze: czy drużyna zrozumie, że Kowal nie jest jej wrogiem. Wszystko, co zebrali po drodze (runy, Draff, ekrany, drukarka), ma ich do tego doprowadzić. Jeśli zabiją Kowala w spalarni, przygoda i tak się kończy — ale stracą najciekawszego sojusznika kampanii.")),
 
 ("11. Zakończenie i nagrody", """
@@ -264,7 +264,7 @@ ADVENTURE = [
 """),
 
 ("12. Legendy o Kowalu", """
-<p>Gdy postacie pierwszy raz usłyszą imię Kowala, mogą sprawdzić, co o nim wiedzą: <b>INT+Legendy (2)</b>. Postacie z Borki +1K, Złomiarze mogą dodać Sekrety jako kości. Za sukces jedna plotka, za każdy Wyzwalacz kolejna (losuj albo wybieraj).</p>
+<p>Gdy postacie pierwszy raz usłyszą imię Kowala, mogą sprawdzić, co o nim wiedzą: <b>Intelekt + Legendy (2)</b>. Postacie z Borki +1K, Złomiarze mogą dodać Sekrety jako kości. Za sukces jedna plotka, za każdy Wyzwalacz kolejna (losuj albo wybieraj).</p>
 <ol><li>W spelunce w Justitian pobił sześć Wron Bojowych, które oszukały go w karty. Jednemu odgryzł palce.</li>
 <li>Doszedł do półfinału walk w dole. Rzucił przeciwnikiem o ścianę tak, że ten już się nie ruszył. Do finału nie stanął — po prostu zniknął na pustkowiach.</li>
 <li>Jego jaskinie są dobrze ukryte. Znaczy je kamieniem wielkości pięści z wyrytą swoją runą. Jak zobaczysz taki kamień — uciekaj.</li>

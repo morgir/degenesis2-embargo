@@ -168,7 +168,7 @@
    "powazne": 0,
    "krytyczna": 0
   },
-  "notes": "<p>Jedna z „przyjaciółek” Kowala — zbiera okruchy po jego znaleziskach. Lubi go, bo rzadko spotyka kogoś, kto sięga po przemoc tak obojętnie i nagle. Pule wg podręcznika: umiejętności ZRĘ 8, CIA 5.</p>"
+  "notes": "<p>Jedna z „przyjaciółek” Kowala — zbiera okruchy po jego znaleziskach. Lubi go, bo rzadko spotyka kogoś, kto sięga po przemoc tak obojętnie i nagle. Pule wg podręcznika: umiejętności Zręczności 8, Ciała 5.</p>"
  },
  "items": [
   {
@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "0",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -211,7 +211,7 @@
    "type": "potencjal",
    "img": "icons/svg/aura.svg",
    "system": {
-    "description": "<p>Mistrzyni ról: udaje Kronikarkę z Vocoderem i maską; +2K do PSY+Oszustwo, gdy gra rolę [Katharsys: Cuckoo].</p>",
+    "description": "<p>Mistrzyni ról: udaje Kronikarkę z Vocoderem i maską; +2K do Psyche + Oszustwo, gdy gra rolę [Katharsys: Cuckoo].</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

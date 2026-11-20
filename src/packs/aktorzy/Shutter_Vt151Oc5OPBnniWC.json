@@ -180,7 +180,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "0",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
@@ -211,7 +211,7 @@
    "type": "potencjal",
    "img": "icons/svg/aura.svg",
    "system": {
-    "description": "<p>„Spieprzać, dziwolągi!” — Starcie PSY+Dominacja 6K przeciw PSY+Wiara/Wola; przegrany traci rundę i Ego równe Wyzwalaczom [Katharsys].</p>",
+    "description": "<p>„Spieprzać, dziwolągi!” — Starcie Psyche + Dominacja 6K przeciw Psyche + Wiara/Wola; przegrany traci rundę i Ego równe Wyzwalaczom [Katharsys].</p>",
     "level": 1,
     "kult": "",
     "prerequisite": "",

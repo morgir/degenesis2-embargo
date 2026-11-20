@@ -2,6 +2,7 @@
 """Generuje źródła kompendiów modułu (src/packs/*/*.json) ze stałymi ID."""
 import json, os, re, shutil, hashlib, string, sys
 sys.path.insert(0, os.path.dirname(__file__))
+from zones import zone
 from embargo_content import ADVENTURE, GM_SCHOOL, HANDOUTS
 from embargo_npcs import NPCS, GANGS
 from embargo_maps import MAPS
@@ -74,7 +75,7 @@ def actor(key, name, type_, system, img, items=(), token=None, fid=None, sort=0,
 def weapon(w):
     n, sk, dmg, rng, q, hand = w
     return {"name": n, "type": "bron", "img": "icons/svg/sword.svg" if sk != "strzelectwo" else "icons/svg/target.svg",
-            "system": {"description": "", "skill": sk, "handling": hand, "damage": dmg, "range": rng, "magazine": {"value": 0, "max": 0},
+            "system": {"description": "", "skill": sk, "handling": hand, "damage": dmg, "range": zone(rng), "magazine": {"value": 0, "max": 0},
                        "qualities": q, "encumbrance": 0, "equipped": True}}
 
 def potential(n, d):

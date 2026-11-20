@@ -2,7 +2,7 @@
   "id": "degenesis2-embargo",
   "title": "Degenesis 2.0 — Embargo",
   "description": "Scenariusz startowy „Embargo” z Katharsys, przerobiony na zasady Degenesis 2.0: dzienniki MG i Szkoła MG, 5 map, 12 NPC z portretami, śledztwo, lokacje, frakcje i długi. Prywatna adaptacja do użytku przy własnym stole.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [{ "name": "morgir" }],
   "compatibility": { "minimum": "14", "verified": "14.370" },
   "relationships": {

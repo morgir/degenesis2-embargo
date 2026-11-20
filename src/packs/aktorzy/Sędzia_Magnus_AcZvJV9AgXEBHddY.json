@@ -180,7 +180,7 @@
     "skill": "strzelectwo",
     "handling": 0,
     "damage": "7",
-    "range": "30/120",
+    "range": "Daleko+",
     "magazine": {
      "value": 0,
      "max": 0
@@ -215,7 +215,7 @@
     "skill": "bronBiala",
     "handling": 0,
     "damage": "3",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0

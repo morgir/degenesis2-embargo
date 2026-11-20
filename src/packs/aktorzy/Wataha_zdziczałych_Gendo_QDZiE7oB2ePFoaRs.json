@@ -180,7 +180,7 @@
     "skill": "bijatyka",
     "handling": 0,
     "damage": "5",
-    "range": "1",
+    "range": "Zwarcie",
     "magazine": {
      "value": 0,
      "max": 0
